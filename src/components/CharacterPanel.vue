@@ -45,6 +45,7 @@ export default {
   -webkit-animation: BackgroundAnimation 30s linear infinite;
   -moz-animation: BackgroundAnimation 30s linear infinite;
   animation: BackgroundAnimation 30s linear infinite;
+  background-attachment: fixed;
 }
 
 @-webkit-keyframes BackgroundAnimation {
