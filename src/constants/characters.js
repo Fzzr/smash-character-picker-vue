@@ -3,308 +3,308 @@ export const CHARACTER_LIST = [
     disabled: false,
     id: "mario",
     image: "mario.png",
-    name: "Mario",
+    name: "MARIO",
     selected: false
   },
   {
     disabled: false,
     id: "donkey-kong",
     image: "donkey-kong.png",
-    name: "Donkey Kong",
+    name: "DONKEY KONG",
     selected: false
   },
   {
     disabled: false,
     id: "link",
     image: "link.png",
-    name: "Link",
+    name: "LINK",
     selected: false
   },
   {
     disabled: false,
     id: "samus",
     image: "samus.png",
-    name: "Samus",
+    name: "SAMUS",
     selected: false
   },
   {
     disabled: false,
     id: "dark-samus",
     image: "dark-samus.png",
-    name: "Dark Samus",
+    name: "DARK SAMUS",
     selected: false
   },
   {
     disabled: false,
     id: "yoshi",
     image: "yoshi.png",
-    name: "Yoshi",
+    name: "YOSHI",
     selected: false
   },
   {
     disabled: false,
     id: "kirby",
     image: "kirby.png",
-    name: "Kirby",
+    name: "KIRBY",
     selected: false
   },
   {
     disabled: false,
     id: "fox",
     image: "fox.png",
-    name: "Fox",
+    name: "FOX",
     selected: false
   },
   {
     disabled: false,
     id: "pikachu",
     image: "pikachu.png",
-    name: "Pikachu",
+    name: "PIKACHU",
     selected: false
   },
   {
     disabled: false,
     id: "luigi",
     image: "luigi.png",
-    name: "Luigi",
+    name: "LUIGI",
     selected: false
   },
   {
     disabled: false,
     id: "ness",
     image: "ness.png",
-    name: "Ness",
+    name: "NESS",
     selected: false
   },
   {
     disabled: false,
     id: "captain-falcon",
     image: "captain-falcon.png",
-    name: "Captain Falcon",
+    name: "CAPTAIN FALCON",
     selected: false
   },
   {
     disabled: false,
     id: "jigglypuff",
     image: "jigglypuff.png",
-    name: "Jigglypuff",
+    name: "JIGGLYPUFF",
     selected: false
   },
   {
     disabled: false,
     id: "peach",
     image: "peach.png",
-    name: "Peach",
+    name: "PEACH",
     selected: false
   },
   {
     disabled: false,
     id: "daisy",
     image: "daisy.png",
-    name: "Daisy",
+    name: "DAISY",
     selected: false
   },
   {
     disabled: false,
     id: "bowser",
     image: "bowser.png",
-    name: "Bowser",
+    name: "BOWSER",
     selected: false
   },
   {
     disabled: false,
     id: "ice-climbers",
     image: "ice-climbers.png",
-    name: "Ice Climbers",
+    name: "ICE CLIMBERS",
     selected: false
   },
   {
     disabled: false,
     id: "sheik",
     image: "sheik.png",
-    name: "Sheik",
+    name: "SHEIK",
     selected: false
   },
   {
     disabled: false,
     id: "zelda",
     image: "zelda.png",
-    name: "Zelda",
+    name: "ZELDA",
     selected: false
   },
   {
     disabled: false,
     id: "dr-mario",
     image: "dr-mario.png",
-    name: "Dr. Mario",
+    name: "DR. MARIO",
     selected: false
   },
   {
     disabled: false,
     id: "pichu",
     image: "pichu.png",
-    name: "Pichu",
+    name: "PICHU",
     selected: false
   },
   {
     disabled: false,
     id: "falco",
     image: "falco.png",
-    name: "Falco",
+    name: "FALCO",
     selected: false
   },
   {
     disabled: false,
     id: "marth",
     image: "marth.png",
-    name: "Marth",
+    name: "MARTH",
     selected: false
   },
   {
     disabled: false,
     id: "lucina",
     image: "lucina.png",
-    name: "Lucina",
+    name: "LUCINA",
     selected: false
   },
   {
     disabled: false,
     id: "young-link",
     image: "young-link.png",
-    name: "Young Link",
+    name: "YOUNG LINK",
     selected: false
   },
   {
     disabled: false,
     id: "ganondorf",
     image: "ganondorf.png",
-    name: "Ganondorf",
+    name: "GANONDORF",
     selected: false
   },
   {
     disabled: false,
     id: "mewtwo",
     image: "mewtwo.png",
-    name: "Mewtwo",
+    name: "MEWTWO",
     selected: false
   },
   {
     disabled: false,
     id: "roy",
     image: "roy.png",
-    name: "Roy",
+    name: "ROY",
     selected: false
   },
   {
     disabled: false,
     id: "chrom",
     image: "chrom.png",
-    name: "Chrom",
+    name: "CHROM",
     selected: false
   },
   {
     disabled: false,
     id: "mr-game-and-watch",
     image: "mr-game-and-watch.png",
-    name: "Mr. Game and Watch",
+    name: "MR. GAME AND WATCH",
     selected: false
   },
   {
     disabled: false,
     id: "meta-knight",
     image: "meta-knight.png",
-    name: "Meta Knight",
+    name: "META KNIGHT",
     selected: false
   },
   {
     disabled: false,
     id: "pit",
     image: "pit.png",
-    name: "Pit",
+    name: "PIT",
     selected: false
   },
   {
     disabled: false,
     id: "dark-pit",
     image: "dark-pit.png",
-    name: "Dark Pit",
+    name: "DARK PIT",
     selected: false
   },
   {
     disabled: false,
     id: "zero-suit-samus",
     image: "zero-suit-samus.png",
-    name: "Zero Suit Samus",
+    name: "ZERO SUIT SAMUS",
     selected: false
   },
   {
     disabled: false,
     id: "wario",
     image: "wario.png",
-    name: "Wario",
+    name: "WARIO",
     selected: false
   },
   {
     disabled: false,
     id: "snake",
     image: "snake.png",
-    name: "Snake",
+    name: "SNAKE",
     selected: false
   },
   {
     disabled: false,
     id: "ike",
     image: "ike.png",
-    name: "Ike",
+    name: "IKE",
     selected: false
   },
   {
     disabled: false,
     id: "pokemon-trainer",
     image: "pokemon-trainer.png",
-    name: "Pokemon Trainer",
+    name: "POKEMON TRAINER",
     selected: false
   },
   {
     disabled: false,
     id: "diddy-kong",
     image: "diddy-kong.png",
-    name: "Diddy Kong",
+    name: "DIDDY KONG",
     selected: false
   },
   {
     disabled: false,
     id: "lucas",
     image: "lucas.png",
-    name: "Lucas",
+    name: "LUCAS",
     selected: false
   },
   {
     disabled: false,
     id: "sonic",
     image: "sonic.png",
-    name: "Sonic",
+    name: "SONIC",
     selected: false
   },
   {
     disabled: false,
     id: "king-dedede",
     image: "king-dedede.png",
-    name: "King Dedede",
+    name: "KING DEDEDE",
     selected: false
   },
   {
     disabled: false,
     id: "olimar",
     image: "olimar.png",
-    name: "Olimar",
+    name: "OLIMAR",
     selected: false
   },
   {
     disabled: false,
     id: "lucario",
     image: "lucario.png",
-    name: "Lucario",
+    name: "LUCARIO",
     selected: false
   },
   {
@@ -318,224 +318,224 @@ export const CHARACTER_LIST = [
     disabled: false,
     id: "toon-link",
     image: "toon-link.png",
-    name: "Toon Link",
+    name: "TOON LINK",
     selected: false
   },
   {
     disabled: false,
     id: "wolf",
     image: "wolf.png",
-    name: "Wolf",
+    name: "WOLF",
     selected: false
   },
   {
     disabled: false,
     id: "villager",
     image: "villager.png",
-    name: "Villager",
+    name: "VILLAGER",
     selected: false
   },
   {
     disabled: false,
     id: "megaman",
     image: "megaman.png",
-    name: "Megaman",
+    name: "MEGAMAN",
     selected: false
   },
   {
     disabled: false,
     id: "wii-fit-trainer",
     image: "wii-fit-trainer.png",
-    name: "Wii Fit Trainer",
+    name: "WII FIT TRAINER",
     selected: false
   },
   {
     disabled: false,
     id: "rosalina",
     image: "rosalina.png",
-    name: "Rosalina & Luma",
+    name: "ROSALINA & LUMA",
     selected: false
   },
   {
     disabled: false,
     id: "little-mac",
     image: "little-mac.png",
-    name: "Little Mac",
+    name: "LITTLE MAC",
     selected: false
   },
   {
     disabled: false,
     id: "greninja",
     image: "greninja.png",
-    name: "Greninja",
+    name: "GRENINJA",
     selected: false
   },
   {
     disabled: false,
     id: "palutena",
     image: "palutena.png",
-    name: "Palutena",
+    name: "PALUTENA",
     selected: false
   },
   {
     disabled: false,
     id: "pac-man",
     image: "pac-man.png",
-    name: "Pac-Man",
+    name: "PAC-MAN",
     selected: false
   },
   {
     disabled: false,
     id: "robin",
     image: "robin.png",
-    name: "Robin",
+    name: "ROBIN",
     selected: false
   },
   {
     disabled: false,
     id: "shulk",
     image: "shulk.png",
-    name: "Shulk",
+    name: "SHULK",
     selected: false
   },
   {
     disabled: false,
     id: "bowser-jr",
     image: "bowser-jr.png",
-    name: "Bowser Jr.",
+    name: "BOWSER JR.",
     selected: false
   },
   {
     disabled: false,
     id: "duck-hunt",
     image: "duck-hunt.png",
-    name: "Duck Hunt",
+    name: "DUCK HUNT",
     selected: false
   },
   {
     disabled: false,
     id: "ryu",
     image: "ryu.png",
-    name: "Ryu",
+    name: "RYU",
     selected: false
   },
   {
     disabled: false,
     id: "ken",
     image: "ken.png",
-    name: "Ken",
+    name: "KEN",
     selected: false
   },
   {
     disabled: false,
     id: "cloud",
     image: "cloud.png",
-    name: "Cloud",
+    name: "CLOUD",
     selected: false
   },
   {
     disabled: false,
     id: "corrin",
     image: "corrin.png",
-    name: "Corrin",
+    name: "CORRIN",
     selected: false
   },
   {
     disabled: false,
     id: "bayonetta",
     image: "bayonetta.png",
-    name: "Bayonetta",
+    name: "BAYONETTA",
     selected: false
   },
   {
     disabled: false,
     id: "inkling",
     image: "inkling.png",
-    name: "Inkling",
+    name: "INKLING",
     selected: false
   },
   {
     disabled: false,
     id: "ridley",
     image: "ridley.png",
-    name: "Ridley",
+    name: "RIDLEY",
     selected: false
   },
   {
     disabled: false,
     id: "simon",
     image: "simon.png",
-    name: "Simon",
+    name: "SIMON",
     selected: false
   },
   {
     disabled: false,
     id: "richter",
     image: "richter.png",
-    name: "Richter",
+    name: "RICHTER",
     selected: false
   },
   {
     disabled: false,
     id: "king-k-rool",
     image: "king-k-rool.png",
-    name: "King K. Rool",
+    name: "KING K. ROOL",
     selected: false
   },
   {
     disabled: false,
     id: "isabelle",
     image: "isabelle.png",
-    name: "Isabelle",
+    name: "ISABELLE",
     selected: false
   },
   {
     disabled: false,
     id: "incineroar",
     image: "incineroar.png",
-    name: "Incineroar",
+    name: "INCINEROAR",
     selected: false
   },
   {
     disabled: false,
     id: "piranha-plant",
     image: "piranha-plant.png",
-    name: "Piranha Plant",
+    name: "PIRANHA PLANT",
     selected: false
   },
   {
     disabled: false,
     id: "joker",
     image: "placeholder.png",
-    name: "Joker",
+    name: "JOKER",
     selected: false
   },
   {
     disabled: false,
     id: "hero",
     image: "placeholder.png",
-    name: "Hero",
+    name: "HERO",
     selected: false
   },
   {
     disabled: true,
     id: "mii-brawler",
     image: "mii-brawler.png",
-    name: "Mii Brawler",
+    name: "MII BRAWLER",
     selected: false
   },
   {
     disabled: true,
     id: "mii-swordfighter",
     image: "mii-swordfighter.png",
-    name: "Mii Swordfighter",
+    name: "MII SWORDFIGHTER",
     selected: false
   },
   {
     disabled: true,
     id: "mii-gunner",
     image: "mii-gunner.png",
-    name: "Mii Gunner",
+    name: "MII GUNNER",
     selected: false
   }
 ];
