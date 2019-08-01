@@ -4,6 +4,7 @@
   "description": "Random character picker application for Super Smash Bros. Ultimate",
   "author": "Ben Milman <bpmilman@gmail.com>",
   "repository": "https://github.com/Fzzr/smash-character-picker-vue.git",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
