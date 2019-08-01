@@ -1,8 +1,16 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import Vuex from 'vuex';
+import App from './App.vue';
 
-Vue.config.productionTip = false
+import storeConfig from './store';
+
+Vue.use(Vuex);
+
+Vue.config.productionTip = false;
+
+const store = new Vuex.Store(storeConfig);
 
 new Vue({
   render: h => h(App),
-}).$mount('#app')
+  store,
+}).$mount('#app');
