@@ -5,6 +5,7 @@
     <CharacterPanel
       v-bind:characterList=characterList
     />
+    <Footer/>
   </div>
 </template>
 
@@ -14,13 +15,15 @@ import { mapState } from "vuex";
 import CharacterPanel from './components/CharacterPanel.vue';
 import SelectButton from './components/SelectButton.vue';
 import ResetButton from './components/ResetButton.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'app',
   components: {
     CharacterPanel,
     SelectButton,
-    ResetButton
+    ResetButton,
+    Footer
   },
   computed: mapState([
     "characterList"
