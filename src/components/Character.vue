@@ -2,6 +2,7 @@
   <div
     class='character'
     v-bind:class="[{selected: selected}]"
+    v-bind:id="id"
     v-bind:index="index"
     v-bind:selected="selected"
     :tabindex="index"

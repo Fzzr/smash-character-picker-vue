@@ -21,6 +21,7 @@ export default {
       const chosenCharacterIndex = Math.floor(Math.random() * enabledCharacters.length);
       const chosenCharacterId = enabledCharacters[chosenCharacterIndex].id;
       this.$store.commit('selectCharacter', {characterId: chosenCharacterId});
+      document.getElementById(chosenCharacterId).focus();
     }
   }
 }
