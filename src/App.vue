@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <SelectButton/>
+    <ResetButton/>
     <CharacterPanel
       v-bind:characterList=characterList
     />
@@ -12,12 +13,14 @@ import { mapState } from "vuex";
 
 import CharacterPanel from './components/CharacterPanel.vue';
 import SelectButton from './components/SelectButton.vue';
+import ResetButton from './components/ResetButton.vue';
 
 export default {
   name: 'app',
   components: {
     CharacterPanel,
-    SelectButton
+    SelectButton,
+    ResetButton
   },
   computed: mapState([
     "characterList"
