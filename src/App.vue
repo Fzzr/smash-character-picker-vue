@@ -2,6 +2,7 @@
   <div id="app">
     <SelectButton/>
     <ResetButton/>
+    <Instructions/>
     <CharacterPanel
       v-bind:characterList=characterList
     />
@@ -16,6 +17,7 @@ import CharacterPanel from './components/CharacterPanel.vue';
 import SelectButton from './components/SelectButton.vue';
 import ResetButton from './components/ResetButton.vue';
 import Footer from './components/Footer.vue';
+import Instructions from './components/Instructions.vue';
 
 export default {
   name: 'app',
@@ -23,7 +25,8 @@ export default {
     CharacterPanel,
     SelectButton,
     ResetButton,
-    Footer
+    Footer,
+    Instructions
   },
   computed: mapState([
     "characterList"
