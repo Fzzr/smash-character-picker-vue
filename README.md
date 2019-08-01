@@ -26,5 +26,25 @@ npm run test
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Additional License Information
+Contents of `assets/characters` are Copyright (c) 2018 Ismael Ramon from https://github.com/desko27/smash-tier-list under the MIT License. See full license at https://github.com/desko27/smash-tier-list/blob/cd22c2c4de698d58f29c202f30a2567f5064ebbf/LICENSE.
+
+Super Smash Bros. Ultimate is Copyright © Nintendo
+
+Characters are Copyright ©:
+* Nintendo / HAL Laboratory, Inc.
+* Pokémon.
+* Creatures Inc.
+* GAME FREAK inc.
+* SHIGESATO ITOI
+* APE inc.
+* INTELLIGENT SYSTEMS
+* Konami Digital Entertainment
+* SEGA
+* CAPCOM CO., LTD.
+* BANDAI NAMCO Entertainment Inc.
+* MONOLITHSOFT
+* CAPCOM U.S.A., INC.
+* SQUARE ENIX CO., LTD.
+* ATLUS
+* Microsoft
