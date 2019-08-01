@@ -11,11 +11,13 @@
 import { mapState } from "vuex";
 
 import CharacterPanel from './components/CharacterPanel.vue';
+import SelectButton from './components/SelectButton.vue';
 
 export default {
   name: 'app',
   components: {
     CharacterPanel,
+    SelectButton
   },
   computed: mapState([
     "characterList"
