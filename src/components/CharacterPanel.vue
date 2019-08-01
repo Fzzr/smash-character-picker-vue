@@ -2,7 +2,6 @@
   <div class="character-panel">
     <character
       v-for="(character, index) in characterList"
-      v-bind:characterList="characterList"
       v-bind:character="character"
       v-bind:disabled="character.disabled"
       v-bind:id="character.id"
