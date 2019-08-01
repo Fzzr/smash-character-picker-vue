@@ -34,7 +34,8 @@ Contents of `assets/characters` are Copyright (c) 2018 Ismael Ramon from https:/
 Super Smash Bros. Ultimate is Copyright © Nintendo
 
 Characters are Copyright ©:
-* Nintendo / HAL Laboratory, Inc.
+* Nintendo
+* HAL Laboratory, Inc.
 * Pokémon.
 * Creatures Inc.
 * GAME FREAK inc.
