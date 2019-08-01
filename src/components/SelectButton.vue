@@ -17,11 +17,14 @@ export default {
       const enabledCharacters = this.$store.state.characterList.filter(character => {
         return !character.disabled;
       });
-      if(enabledCharacters.length===0) alert("All characters are disabled!");
-      const chosenCharacterIndex = Math.floor(Math.random() * enabledCharacters.length);
-      const chosenCharacterId = enabledCharacters[chosenCharacterIndex].id;
-      this.$store.commit('selectCharacter', {characterId: chosenCharacterId});
-      document.getElementById(chosenCharacterId).focus();
+      if(enabledCharacters.length===0) {
+        alert("All characters are disabled!");
+      } else {
+        const chosenCharacterIndex = Math.floor(Math.random() * enabledCharacters.length);
+        const chosenCharacterId = enabledCharacters[chosenCharacterIndex].id;
+        this.$store.commit('selectCharacter', {characterId: chosenCharacterId});
+        document.getElementById(chosenCharacterId).focus();
+      }
     }
   }
 }
