@@ -1,5 +1,5 @@
 <template>
-  <div class="character-panel">
+  <div class="CharacterPanel">
     <character
       v-for="(character, index) in characterList"
       v-bind:character="character"
@@ -35,12 +35,29 @@ export default {
 </script>
 
 <style scoped>
-.character-panel {
-  outline: solid grey;
+.CharacterPanel {
   margin: 5px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
+  background: repeating-linear-gradient(-20deg, blue, cornflowerblue 11%, palegoldenrod 13%, gold 25%, palegoldenrod 37%, cornflowerblue 39%, blue 50%);
+  background-size: 8000px 8000px;
+  -webkit-animation: BackgroundAnimation 30s linear infinite;
+  -moz-animation: BackgroundAnimation 30s linear infinite;
+  animation: BackgroundAnimation 30s linear infinite;
+}
+
+@-webkit-keyframes BackgroundAnimation {
+    0%{background-position: 2000px 2000px}
+    100%{background-position: 6000px 6000px}
+}
+@-moz-keyframes BackgroundAnimation {
+    0%{background-position: 2000px 2000px}
+    100%{background-position: 6000px 6000px}
+}
+@keyframes BackgroundAnimation {
+    0%{background-position: 2000px 2000px}
+    100%{background-position: 6000px 6000px}
 }
 </style>
 
