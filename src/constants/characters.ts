@@ -7,6 +7,15 @@ export interface Character {
   selected: boolean;
 }
 
+export const DEFAULT_CHARACTER: Character = {
+  disabled: false,
+  id: 'default',
+  image: 'placeholder.png',
+  key: 'default',
+  name: 'DEFAULT',
+  selected: false,
+};
+
 export const CHARACTER_LIST: Character[] = [
   {
     disabled: false,
