@@ -1,4 +1,12 @@
-export const CHARACTER_LIST = [
+export class Character {
+  public disabled!: boolean;
+  public readonly id!: string;
+  public readonly image!: string;
+  public readonly name!: string;
+  public selected!: boolean;
+}
+
+export const CHARACTER_LIST: Character[] = [
   {
     disabled: false,
     id: 'mario',
