@@ -22,18 +22,21 @@
   </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { Component, Prop, Vue } from 'vue-property-decorator';
+
+@Component({
   name: 'CharacterItem',
-  props: {
-    disabled: Boolean,
-    image: String,
-    index: Number,
-    id: String,
-    name: String,
-    selected: Boolean
-  },
-};
+})
+
+export default class CharacterItem extends Vue {
+  @Prop() private disabled!: boolean;
+  @Prop() private image!: string;
+  @Prop() private index!: number;
+  @Prop() private id!: string;
+  @Prop() private name!: string;
+  @Prop() private selected!: boolean;
+}
 </script>
 
 <style scoped>
