@@ -1,6 +1,6 @@
 <template>
   <div class="CharacterPanel">
-    <character
+    <CharacterItem
       v-for="(character, index) in characterList"
       v-bind:character="character"
       v-bind:disabled="character.disabled"
