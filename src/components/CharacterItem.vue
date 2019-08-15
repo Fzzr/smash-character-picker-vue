@@ -1,6 +1,6 @@
 <template>
   <div
-    class='character'
+    class='character-item'
     v-bind:class="[{selected: selected}]"
     v-bind:id="id"
     v-bind:index="index"
@@ -24,7 +24,7 @@
 
 <script>
 export default {
-  name: 'Character',
+  name: 'CharacterItem',
   props: {
     disabled: Boolean,
     image: String,
@@ -41,7 +41,7 @@ h3 {
   margin: auto;
 }
 
-.character {
+.character-item {
   margin: 2px;
   position: relative;
   width: 150px;

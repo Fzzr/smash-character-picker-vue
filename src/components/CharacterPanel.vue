@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import Character from './Character';
+import CharacterItem from './CharacterItem';
 
 export default {
   name: 'CharacterPanel',
@@ -24,7 +24,7 @@ export default {
     characterList: Array
   },
   components: {
-    Character
+    CharacterItem
   },
   methods: {
     toggleCharacter: function(characterId) {
