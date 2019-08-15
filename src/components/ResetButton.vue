@@ -15,9 +15,9 @@ export default {
   methods: {
     resetCharacters() {
       this.$store.commit('resetCharacters');
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style scoped>
