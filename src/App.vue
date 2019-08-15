@@ -29,8 +29,8 @@ export default {
     Instructions,
   },
   computed: mapState([
-    "characterList"
-  ])
+    'characterList',
+  ]),
 };
 </script>
 
