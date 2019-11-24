@@ -1,6 +1,6 @@
 <template>
   <div class="CharacterPanel">
-    <character
+    <CharacterItem
       v-for="(character, index) in characterList"
       v-bind:character="character"
       v-bind:disabled="character.disabled"
@@ -15,23 +15,24 @@
   </div>
 </template>
 
-<script>
-import Character from './Character';
+<script lang="ts">
+import { Component, Prop, Vue } from 'vue-property-decorator';
+import CharacterItem from './CharacterItem.vue';
+import { Character } from '../constants/characters';
 
-export default {
-  name: 'CharacterPanel',
-  props: {
-    characterList: Array
-  },
+@Component({
   components: {
-    Character
+    CharacterItem,
   },
-  methods: {
-    toggleCharacter: function(characterId) {
-      this.$store.commit('toggleCharacter', { characterId });
-    }
+  name: 'CharacterPanel',
+})
+
+export default class CharacterPanel extends Vue {
+  @Prop() private characterList!: Character[];
+  public toggleCharacter(characterId: string): void {
+    this.$store.commit('toggleCharacter', { characterId });
   }
-};
+}
 </script>
 
 <style scoped>

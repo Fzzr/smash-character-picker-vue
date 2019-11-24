@@ -1,26 +1,34 @@
-import { CHARACTER_LIST } from './constants/characters';
+import Vue from 'vue';
+import Vuex from 'vuex';
 
-const storeConfig = {
+import { Character, CHARACTER_LIST, DEFAULT_CHARACTER } from './constants/characters';
+
+Vue.use(Vuex);
+
+export default new Vuex.Store({
   state: {
-    characterList: JSON.parse(JSON.stringify(CHARACTER_LIST))
+    characterList: CHARACTER_LIST,
   },
   mutations: {
-    toggleCharacter(state, payload) {
+    toggleCharacter(state, payload: { characterId: string }): void {
       const { characterId } = payload;
-      const characterToToggle = state.characterList.find((character) => {
+      let characterToToggle = state.characterList.find((character) => {
         return character.id === characterId;
       });
+      if (!characterToToggle) {
+        characterToToggle = DEFAULT_CHARACTER;
+      }
       characterToToggle.disabled = !characterToToggle.disabled;
     },
 
-    selectCharacter(state, payload) {
+    selectCharacter(state, payload: { characterId: string }): void {
       const { characterId } = payload;
       state.characterList.forEach((character) => {
         character.selected = character.id === characterId;
       });
     },
 
-    resetCharacters(state) {
+    resetCharacters(state): void {
       const newCharacterList = state.characterList.map((character) => {
         const newCharacter = CHARACTER_LIST.find((defaultCharacter) => {
           return defaultCharacter.id === character.id;
@@ -29,8 +37,6 @@ const storeConfig = {
       });
 
       state.characterList = newCharacterList;
-    } 
-  }
-};
-
-export default storeConfig;
+    },
+  },
+});

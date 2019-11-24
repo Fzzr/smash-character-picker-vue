@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import {version} from "../../package.json";
+import {version} from '../../package.json';
 export default {
   name: 'Footer',
-  data: function() {
+  data: () => {
     return {version};
-  }
+  },
 };
 </script>

@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { mapState } from "vuex";
+import { mapState } from 'vuex';
 
 import CharacterPanel from './components/CharacterPanel.vue';
 import SelectButton from './components/SelectButton.vue';
@@ -26,11 +26,11 @@ export default {
     SelectButton,
     ResetButton,
     Footer,
-    Instructions
+    Instructions,
   },
   computed: mapState([
-    "characterList"
-  ])
+    'characterList',
+  ]),
 };
 </script>
 

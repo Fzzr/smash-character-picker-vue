@@ -1,6 +1,6 @@
 <template>
   <div
-    class='character'
+    class='character-item'
     v-bind:class="[{selected: selected}]"
     v-bind:id="id"
     v-bind:index="index"
@@ -22,18 +22,21 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Character',
-  props: {
-    disabled: Boolean,
-    image: String,
-    index: Number,
-    id: String,
-    name: String,
-    selected: Boolean
-  },
-};
+<script lang="ts">
+import { Component, Prop, Vue } from 'vue-property-decorator';
+
+@Component({
+  name: 'CharacterItem',
+})
+
+export default class CharacterItem extends Vue {
+  @Prop() private disabled!: boolean;
+  @Prop() private image!: string;
+  @Prop() private index!: number;
+  @Prop() private id!: string;
+  @Prop() private name!: string;
+  @Prop() private selected!: boolean;
+}
 </script>
 
 <style scoped>
@@ -41,7 +44,7 @@ h3 {
   margin: auto;
 }
 
-.character {
+.character-item {
   margin: 2px;
   position: relative;
   width: 150px;
