@@ -610,6 +610,22 @@ export const CHARACTER_LIST: Character[] = [
     selected: false,
   },
   {
+    disabled: false,
+    id: 'banjo-kazooie',
+    image: 'placeholder.png',
+    key: 'banjo-kazooie',
+    name: 'BANJO & KAZOOIE',
+    selected: false,
+  },
+  {
+    disabled: false,
+    id: 'terry',
+    image: 'placeholder.png',
+    key: 'terry',
+    name: 'TERRY',
+    selected: false,
+  },
+  {
     disabled: true,
     id: 'mii-brawler',
     image: 'mii-brawler.png',
