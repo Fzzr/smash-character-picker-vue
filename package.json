@@ -1,6 +1,6 @@
 {
   "name": "smash-character-picker-vue",
-  "version": "v1.2.1",
+  "version": "v1.3.0",
   "description": "Random character picker application for Super Smash Bros. Ultimate",
   "author": "Ben Milman <bpmilman@gmail.com>",
   "repository": "https://github.com/Fzzr/smash-character-picker-vue.git",
